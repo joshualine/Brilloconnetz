@@ -12,5 +12,5 @@ generate them randomly). The code could output the following.
 * whether the shopkeeper was able to meet the needs of the 3 users or not
 * how many pancakes got wasted if any.
 * If the shopkeeper was not able to meet the needs of all the customers, how many pancake
-orders were not met.
+orders were not met..
 #### NB: This runs in a non-concurrent manner
