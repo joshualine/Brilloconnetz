@@ -17,7 +17,7 @@ public class Main {
             pancakesMade = Math.min(random.nextInt(13), 12); // Generate pancakes made by shopkeeper
 
             for (int i = 0; i < 3; i++) {
-                usersRequests[i] = random.nextInt(6); // Generate user requests (0-5 pancakes)
+                usersRequests[i] = random.nextInt(6); // Generate user Generate user requests (0-5 pancakes)
                 usersRequests[i] = Math.min(usersRequests[i], 5); // Cap at 5 pancakes per user
                 pancakesEaten[i] += usersRequests[i]; // Track total eaten by user i
             }
